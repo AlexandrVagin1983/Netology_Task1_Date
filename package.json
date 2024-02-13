@@ -1,0 +1,19 @@
+{
+  "name": "vagin_task-1_current_date",
+  "version": "1.0.0",
+  "description": "Консольная утилита получения текущей даты.",
+  "main": "date.js",
+  "bin": {
+    "current": "./current.js",
+    "add": "./add.js",
+    "sub": "./sub.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Вагин А.С.",
+  "license": "ISC",
+  "dependencies": {
+    "yargs": "^17.7.2"
+  }
+}
