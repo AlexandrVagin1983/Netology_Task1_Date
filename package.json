@@ -4,9 +4,7 @@
   "description": "Консольная утилита получения текущей даты.",
   "main": "date.js",
   "bin": {
-    "current": "./current.js",
-    "add": "./add.js",
-    "sub": "./sub.js"
+    "getDate": "./getDate.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
